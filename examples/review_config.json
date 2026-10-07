@@ -1,0 +1,10 @@
+{
+  "metadata": {"entity":"ABC", "scope":"separate", "unit":"KRW", "period":"2026", "prior_period":"2025"},
+  "concept_aliases": {"매출액":"Revenue", "수익":"Revenue"},
+  "terminology": {"유형 자산":"유형자산", "무형 자산":"무형자산"},
+  "expectations": [],
+  "materiality_unit":"KRW",
+  "numeric_tolerance":"0",
+  "require_references":false,
+  "xbrl_validation":"arelle"
+}

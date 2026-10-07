@@ -1,0 +1,11 @@
+__pycache__/
+*.egg-info/
+.venv/
+output/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+build/
+dist/
+*.frr-backup-*

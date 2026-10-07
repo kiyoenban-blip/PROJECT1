@@ -1,0 +1,8 @@
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:t="urn:frr:example" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <link:schemaRef xlink:type="simple" xlink:href="example.xsd"/>
+ <xbrli:context id="c2026"><xbrli:entity><xbrli:identifier scheme="https://example.com/company">ABC</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:instant>2026-12-31</xbrli:instant></xbrli:period></xbrli:context>
+ <xbrli:unit id="krw"><xbrli:measure>iso4217:KRW</xbrli:measure></xbrli:unit>
+ <t:Cash contextRef="c2026" unitRef="krw" decimals="0" id="cash">10</t:Cash>
+ <t:Receivables contextRef="c2026" unitRef="krw" decimals="0" id="receivables">20</t:Receivables>
+ <t:Assets contextRef="c2026" unitRef="krw" decimals="0" id="assets">35</t:Assets>
+</xbrli:xbrl>

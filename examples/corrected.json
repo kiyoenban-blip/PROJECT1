@@ -1,0 +1,13 @@
+{
+  "facts": [
+    {
+      "concept": "Revenue",
+      "value": "52340",
+      "period": "2026",
+      "unit": "KRW_million",
+      "entity": "ABC",
+      "scope": "consolidated",
+      "location": "주석25"
+    }
+  ]
+}

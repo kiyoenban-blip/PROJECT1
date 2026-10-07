@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "financial-report-reviewer"
+version = "0.6.1"
+description = "Read-only financial reporting review and clearing MCP"
+requires-python = ">=3.11"
+dependencies = ["mcp>=1.12,<2", "pydantic>=2.7,<3", "openpyxl>=3.1,<4", "lxml>=5,<7", "pypdf>=5,<7", "pdfplumber>=0.11,<1", "arelle-release==2.46.0"]
+
+[project.scripts]
+frr-mcp = "frr.server:main"
+frr = "frr.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["frr*"]

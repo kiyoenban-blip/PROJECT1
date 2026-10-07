@@ -1,0 +1,9 @@
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <link:calculationLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+  <link:loc xlink:type="locator" xlink:href="example.xsd#Cash" xlink:label="cash"/>
+  <link:loc xlink:type="locator" xlink:href="example.xsd#Receivables" xlink:label="receivables"/>
+  <link:loc xlink:type="locator" xlink:href="example.xsd#Assets" xlink:label="assets"/>
+  <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="assets" xlink:to="cash" weight="1" order="1"/>
+  <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="assets" xlink:to="receivables" weight="1" order="2"/>
+ </link:calculationLink>
+</link:linkbase>

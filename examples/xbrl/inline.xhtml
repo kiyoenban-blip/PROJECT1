@@ -1,0 +1,10 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:t="urn:frr:example" xmlns:iso4217="http://www.xbrl.org/2003/iso4217">
+<head><title>ABC fictional Inline XBRL test</title></head><body>
+<div style="display:none"><ix:header><ix:references><link:schemaRef xlink:type="simple" xlink:href="example.xsd"/></ix:references><ix:resources>
+ <xbrli:context id="c2026"><xbrli:entity><xbrli:identifier scheme="https://example.com/company">ABC</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:instant>2026-12-31</xbrli:instant></xbrli:period></xbrli:context>
+ <xbrli:unit id="krw"><xbrli:measure>iso4217:KRW</xbrli:measure></xbrli:unit>
+</ix:resources></ix:header></div>
+<p>Cash <ix:nonFraction name="t:Cash" contextRef="c2026" unitRef="krw" decimals="0" id="cash">10</ix:nonFraction></p>
+<p>Receivables <ix:nonFraction name="t:Receivables" contextRef="c2026" unitRef="krw" decimals="0" id="receivables">20</ix:nonFraction></p>
+<p>Assets <ix:nonFraction name="t:Assets" contextRef="c2026" unitRef="krw" decimals="0" id="assets">35</ix:nonFraction></p>
+</body></html>
